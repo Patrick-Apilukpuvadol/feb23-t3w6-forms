@@ -7,6 +7,8 @@ export default function BusinessCardPage(props){
             <BusinessCardParent />
             <BusinessCardParent />
             <BusinessCardParent />
+
+            
         </div>
     )
 }

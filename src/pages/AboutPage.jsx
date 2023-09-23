@@ -1,3 +1,4 @@
+import RedirectHomeButton from "../components/ReactHomeButton";
 
 
 
@@ -6,7 +7,7 @@ export default function AboutPage(props){
         <div>
             <h1>About</h1>
 
-         
+            <RedirectHomeButton />
         </div>
     )
 }
