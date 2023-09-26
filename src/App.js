@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Navbar from './components/Navbar';
+import PokemonFetcherPage from './pages/PokemonFetcherPage';
 
 // React router parts:
 // - BrowserRouter needs to exist higher up in the component tree then whatever we are writing Routes in
@@ -43,6 +44,9 @@ function App() {
           <Route path="contact" element={<ContactPage />} />
         </Route>
 
+
+        <Route path="/pokemon" element={<PokemonFetcherPage />} />
+        <Route path="/pokemon/:pokemonId" element={<PokemonFetcherPage />} />
 
 
       </Routes>
